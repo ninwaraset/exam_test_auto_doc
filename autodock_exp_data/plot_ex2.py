@@ -50,9 +50,9 @@ plt.text(center_x+shift_text[0],center_y+shift_text[1],(center_x,center_y),color
 
 fig = plt.gcf()
 ax = fig.gca()
-circle1 = plt.Circle((center_x,center_y), 0.45,ls = "--", color='m', fill=False)
-circle2 = plt.Circle((center_x,center_y), 0.5,ls = "-.", color='c', fill=False)
-circle3 = plt.Circle((center_x,center_y), 0.60,ls = "dotted", color='y', fill=False)
+circle1 = plt.Circle((center_x,center_y), 0.45,ls = "--", color='lime', fill=False)
+circle2 = plt.Circle((center_x,center_y), 0.5,ls = "-.", color='deeppink', fill=False)
+circle3 = plt.Circle((center_x,center_y), 0.55,ls = "-.", color='peru', fill=False)
 
 
 
